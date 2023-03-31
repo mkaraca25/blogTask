@@ -86,6 +86,10 @@
     text-decoration: none;
     color: #333;
 }
+.email-text{
+  margin-top:inherit;
+  margin-left:20px;
+}
 .map_icon {
     width: 100%;
     float: left;

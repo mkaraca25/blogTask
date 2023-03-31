@@ -1,6 +1,5 @@
 import { NgModule,NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatSidenavModule } from '@angular/material/sidenav';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -11,6 +10,7 @@ import { BlogComponent } from './views/blog/blog.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +22,13 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
     BlogComponent,
     ContactComponent,
     FooterComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MenuComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     
   ],
   schemas: [NO_ERRORS_SCHEMA],

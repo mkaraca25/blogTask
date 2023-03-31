@@ -1,0 +1,15 @@
+<header>
+    <nav>
+      <button (click)="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="menu" [class.open]="isOpen" #menu>
+        <ul>
+          <li><a href="#">Menü Öğesi 1</a></li>
+          <li><a href="#">Menü Öğesi 2</a></li>
+          <li><a href="#">Menü Öğesi 3</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
