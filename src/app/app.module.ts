@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './views/home/home.component';
-import { SliderComponent } from './components/slider/slider.component';
 import { AboutComponent } from './views/about/about.component';
 import { ServicesComponent } from './views/services/services.component';
 import { BlogComponent } from './views/blog/blog.component';
@@ -18,7 +17,6 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    SliderComponent,
     AboutComponent,
     ServicesComponent,
     BlogComponent,
@@ -30,6 +28,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
   imports: [
     BrowserModule,
     AppRoutingModule,
+
     
   ],
   schemas: [NO_ERRORS_SCHEMA],
