@@ -1,0 +1,11 @@
+p{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    float: left;
+    background-color: #076787;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fbfdfd;;
+}

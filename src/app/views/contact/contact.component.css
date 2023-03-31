@@ -1,0 +1,182 @@
+.contact {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+}
+
+.title {
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    color: #050000;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-top:250px;
+
+    
+}
+.title1 {
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    color: #050000;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-top:40px;
+    margin-bottom:80px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input_main {
+  width: 100%;
+  margin-top:40px;
+  background-color: #072833;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container {
+  width: 70%;
+  height: 50%;
+  margin-left:150px;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+.form-group input,textarea {
+        background: #072833;
+      
+}
+.lorem_text {
+  width: 100%;
+  float: left;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 35px;
+  padding-top: 80px;
+  margin: 50px;
+  p{
+    margin: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+.contact_section_2 {
+    width: 80%;
+}
+.col-sm-4 {
+    
+}
+.email-text a {
+    text-decoration: none;
+    color: #333;
+}
+.map_icon {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;}
+.contact_section_2 {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;}
+.map_icon {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact_section_2{
+    width: 100%;
+}
+
+.email-bt {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.massage-bt {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.main_bt {
+  background-color: #e67e22;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main_bt a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main_bt:hover {
+  background-color: #d35400;
+}
+
+.send_btn {
+  margin-top: 30px;
+}
+
+.contact div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact div img {
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.contact div p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+.contactt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
