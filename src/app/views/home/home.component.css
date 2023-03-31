@@ -25,7 +25,11 @@
 }
 
 .creative_text {
-    font-size: 3rem; 
+    font-size: 2rem; 
+    border-bottom: 1px solid #000;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom:20px;
 }
 
 .btn_main {
@@ -59,6 +63,28 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
+  }
+  @media (max-width: 1400px) {
+    .banner-main {
+      height: 90vh;
+    }
+    .bnner_title{
+      margin-top:revert;
+      font-size:30px;
+    }
+    .centered-content{
+      background-color: aliceblue;
+      height:60vh;
+      position:relative;
+      margin-top:20px;
+    }
+    .btn_main{
+      
+    }
+    .services{
+      margin-top:150px;
+    }
 
   }
   
