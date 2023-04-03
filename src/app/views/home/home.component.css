@@ -1,3 +1,4 @@
+
 .banner-main {
     background: #fff;
     padding: 30px 0;
@@ -28,7 +29,7 @@
     background-color: #076787;
     height: auto;
     padding: 20px;
-    font-weight: bold;
+
 }
 .section_title{
   display:flex;
@@ -90,6 +91,9 @@
     
 
   }
+  .titleQuote{
+    color: #ffffff
+  }
   .banner-main {
     height: 70vh;
     background-image: url('/assets/banner.png');
@@ -99,12 +103,13 @@
 
   }
   .services{
-    margin-top:50px;
+    margin-top:100px;
   }
   @media (max-width: 1400px) {
     .banner-main {
       height: 90vh;
     }
+    
     .bnner_title{
       margin-top:revert;
       font-size:30px;
@@ -138,8 +143,51 @@
     .centered-content{
       overflow: auto;
     }
+    .header{
+      position:fixed;
+    }
     .container{
       
+    }
+    .centered-content{
+      height:auto;
+    }
+    .creative_text{
+      width: 100%;
+    }
+    .services{
+      position: relative;
+      top: 50%;
+    }
+    .creative_taital {
+      height:100% !important;
+  }
+    .quote_section {
+      text-align: center;width:100% !important;
+      margin-bottom:20px;
+      position: relative;
+      margin-top:400px;
+      
+    }
+    
+    .section_title {
+      width:200% !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;width: 100% ;
+    }
+    .section_left{
+      max-width:100%;
+    }
+    .section_left {
+      margin-bottom: 20px;
+      
+    }
+    
+    .section_right {
+      margin-top: 20px;
     }
   }
   

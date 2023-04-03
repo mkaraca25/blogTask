@@ -51,4 +51,8 @@
     font-size: 15px;
     line-height: 24px;
   }
-  
+  @media (max-width: 768px) {
+    .section{
+      width: 100%;
+    }
+  }

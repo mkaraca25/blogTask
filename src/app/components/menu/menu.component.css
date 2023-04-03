@@ -49,7 +49,7 @@
   display: none !important;
   position: relative !important;
   right: 5px;
-  padding: 10px 20px;
+  padding: 5px 10px;
  
   border-radius:5px;
 }
@@ -76,10 +76,7 @@
   a {
     display: none;
   }
-  .navbar{
-    
-    
-  }
+
   
   
   
@@ -115,7 +112,6 @@
   display:inline-block;
   width: 100%;
   text-decoration: none;
-  font-weight: bold;
   color:#ffffff !important;
   line-height: 56px !important;
   padding-right: 60px; 
