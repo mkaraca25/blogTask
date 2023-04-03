@@ -9,3 +9,9 @@ p{
     padding-bottom: 10px;
     color: #fbfdfd;;
 }
+@media (max-width: 768px){
+    p{
+        width: 100%;
+        margin:auto;
+    }
+}
