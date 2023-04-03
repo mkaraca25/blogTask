@@ -67,13 +67,14 @@
   color: #ffffff;
   font-size: 17px;
   line-height: 35px;
-  padding-top: 80px;
   margin: 50px;
+ 
   p{
     margin: 20px;
-    font-weight: 400;
+    font-weight: 500 ;
     font-size: 15px;
     line-height: 24px;
+    
   }
 }
 .contact_section_2 {
@@ -171,8 +172,8 @@
 
 .contact div p {
   font-size: 20px;
-  font-weight: 500;
-  margin: 0;
+  font-weight: 300;
+  margin: 0 auto;
 }
 .contactt {
   display: flex;
@@ -180,3 +181,64 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.contact {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  }
+  .container{
+    margin:10px;
+    margin-left: 10px !important;
+
+  }
+  .input_main{
+    display: flex;
+    flex-direction: column;padding: 40px 20px;
+  }
+  
+  .title1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  }
+  
+  .main {
+  display: block;
+  }
+  
+  .container {
+  width: 100%;
+  margin-left: 0;
+  padding: 20px;
+  }
+  
+  .map_icon {
+  margin: 20px 0;
+  }
+  
+  .contact_section_2 {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  }
+  }
+
+

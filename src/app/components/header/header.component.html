@@ -2,8 +2,10 @@
   <main>
     <img class="logo" src="/assets/logo.png" alt="logo">
   </main>
+
   <nav class="header__menu">
-    <div class="header_main">
+   <app-menu ></app-menu>
+    <div class="header_main"> <div class="toggle"></div>
       <a routerLink="/">Home</a>
       <a routerLink="/about" routerLinkActive="active-link">About</a>
       <a routerLink="/services">Services</a>
@@ -12,9 +14,9 @@
 
     </div>
     <div>
-      <img src="/assets/search-icon.png" alt="">
+      <img class="search" src="/assets/search-icon.png" alt="">
     </div>
-   
+    
   </nav>
-
+ 
 </header>

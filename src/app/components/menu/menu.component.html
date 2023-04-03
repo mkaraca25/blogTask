@@ -1,15 +1,20 @@
-<header>
-    <nav>
-      <button (click)="toggleMenu()">
-        <i class="fa fa-bars"></i>
+<div  class="navbar" [ngClass]="{'navbar-fixed': isFixedNavbar}">
+  <div class="container" fxLayout="row wrap" fxLayoutAlign="start center">
+    <div class="navbar-mobile-top" fxLayout="row" fxLayoutWrap="wrap" fxLayoutAlign="start center">
+      <button  mat-icon-button color="accent" class="navbar-toggle" (click)="toggleNavbar()">
+        <mat-icon class="toggle">{{!navbarOpened ? '☰': '☰'}}</mat-icon>
       </button>
-      <div class="menu" [class.open]="isOpen" #menu>
-        <ul>
-          <li><a href="#">Menü Öğesi 1</a></li>
-          <li><a href="#">Menü Öğesi 2</a></li>
-          <li><a href="#">Menü Öğesi 3</a></li>
-        </ul>
+    </div>
+    <div fxFlex class="top-navbar">
+      <span fxFlex></span>
+      <div class="header_main">
+
+        <a routerLink="/">Home</a>
+        <a routerLink="/about" routerLinkActive="active-link">About</a>
+        <a routerLink="/services">Services</a>
+        <a routerLink="/blog">Blog</a>
+        <a routerLink="/contact">Contact</a>
+
       </div>
-    </nav>
-  </header>
-  
+    </div>
+  </div>

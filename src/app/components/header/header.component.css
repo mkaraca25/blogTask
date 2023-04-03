@@ -1,4 +1,5 @@
 header{ 
+  position: relative;
 	width: 100%;
 	float: left;
 	background-color: #072833;
@@ -14,6 +15,7 @@ main {
     height: 150px;
     position: relative;
   }
+  
   
   .logo {
     display: flex;
@@ -59,5 +61,34 @@ main {
     padding: .5rem 1rem;
     color: #fff;
     text-decoration: none;
+    
+}
+@media (min-width: 768px) {
+  .toggle{
+    display:none !important;
+  }
+ 
+    .top-navbar {
+      display:none !important;
+    }
+   
+    
+}
+@media (max-width: 768px) {
+  .search{
+    display:none !important;
+  }
+  .header__menu a {
+    display:none !important;
+  }
+  .logo img {
+    display: block !important;
+    width: 100px; 
+    height: auto;
+  }
+  .logo {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
     
 }

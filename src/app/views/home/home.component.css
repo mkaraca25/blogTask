@@ -134,4 +134,15 @@
     margin-top: 20px;
     border-radius: 30px;
   }
+  @media (max-width: 768px){
+    .centered-content{
+      overflow: auto;
+    }
+    .container{
+      
+    }
+  }
+  
+
+  
   

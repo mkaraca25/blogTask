@@ -57,4 +57,15 @@
     font-size: 15px;
     line-height: 24px;color: #fff;
   }
+  @media only screen and (max-width: 768px) {
+    .section {
+      flex-basis: 100%;
+    }
+  }
   
+  /* Mobil için stiller */
+  @media only screen and (max-width: 480px) {
+    .section {
+      flex-basis: 100%;
+    }
+  }
